@@ -8,7 +8,7 @@ type Props = {
   onClick: () => void
 }
 
-export const PrimaryButoon: React.FC<Props> = memo((props) => {
+export const PrimaryButton: React.FC<Props> = memo((props) => {
   const { children, disabled = false, loading = false, onClick } = props
   return (
     <Button
